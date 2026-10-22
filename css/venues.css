@@ -280,9 +280,36 @@
     margin-bottom: 25px;
 }
 
-.VS6Cont3 li{
+.VS6Cont3 li {
     color: #15c9b1;
     font-size: 15px;
     line-height: 34px;
     font-weight: 600;
+}
+
+.HeroContainer1 h1 {
+    color: #0b2b5c;
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+.HeroContainer2 p {
+    color: #666;
+    font-size: 19px;
+    line-height: 34px;
+    max-width: 850px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.HeroContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-color: #f7f9fc;
 }
