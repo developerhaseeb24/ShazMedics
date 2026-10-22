@@ -313,7 +313,7 @@
 }
 
 /* Media Query Code */
-@media (max-width: 600px) {
+@media (max-width: 410px) {
 
     .VenueMasterConatiner1 {
         padding-left: 15px;
