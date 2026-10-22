@@ -314,7 +314,7 @@
 }
 
 /* Media Query Code */
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 450px) {
 
     .VenueMasterConatiner1 {
         padding-left: 15px;
@@ -339,4 +339,17 @@
         line-height: 28px;
     }
 
+}
+
+
+@media screen and (max-width: 450px){
+    .VenueMasterConatiner2,
+    .VenueMasterConatiner3,
+    .VenueMasterConatiner4,
+    .VenueMasterConatiner5{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
