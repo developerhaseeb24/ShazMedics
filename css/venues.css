@@ -283,9 +283,10 @@
 
 .VS6Cont3 li {
     color: #15c9b1;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 34px;
     font-weight: 600;
+    padding-left: 10px;
 }
 
 .MainContainer {
