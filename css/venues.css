@@ -314,7 +314,7 @@
 }
 
 /* Media Query Code */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
 
     .VenueMasterConatiner1 {
         padding-left: 15px;
@@ -342,7 +342,7 @@
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .VenueMasterConatiner2 {
         padding-left: 15px;
         padding-right: 15px;
@@ -353,7 +353,7 @@
 
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .VenueMasterConatiner3 {
         padding-left: 15px;
         padding-right: 15px;
@@ -362,7 +362,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .VenueMasterConatiner4 {
         padding-left: 15px;
         padding-right: 15px;
@@ -371,7 +371,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .VenueMasterConatiner5 {
         padding-left: 15px;
         padding-right: 15px;
@@ -380,7 +380,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .VenueMasterConatiner6 {
         padding-left: 15px;
         padding-right: 15px;
