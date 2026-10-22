@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins,sans-serif;
+    
+}
+
+/* TOP BAR */
+
+.top-bar{
+    background:#f3f3f3;
+    height:44px;
+    display:flex;
+    /* justify-content:center;
+    align-items:center; */
+    justify-content: right;
+    align-items: center;
+    gap:30px;
+    /* ApnaKyaCode */
+    padding-right: 12px;
+    /* border: 2px solid red; */
+}
+
+.top-bar a{
+    text-decoration:none;
+    color:#154f88;
+    font-size:16px;
+    font-weight:500;
+}
+
+/* NAVBAR */
+
+.navbar{
+    /* height:116px; */
+    height: 100px;
+    background:#0f4d86;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 70px;
+    position:relative;
+    
+}
+
+.logo img{
+    width:140px;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:50px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#fff;
+    font-size:22px;
+    font-weight:600;
+}
+
+/* HAMBURGER */
+
+.hamburger{
+    display:none;
+    flex-direction:column;
+    cursor:pointer;
+}
+
+ /* .hamburger span{
+    width:34px;
+    height:4px;
+    background:#21d6cf;
+    margin:4px 0;
+    border-radius:3px;
+}  */
+
+/* APNa Code */
+.hamburger span{
+    display:block;
+    height:3px;
+    background:#19e0cb;
+    margin:6px 0;
+    border-radius:10px;
+    transition:0.3s ease;
+}
+
+/* First Line */
+.hamburger span:nth-child(1){
+    width:35px;
+}
+
+/* Second Line */
+.hamburger span:nth-child(2){
+    width:22px;
+}
+
+/* Third Line */
+.hamburger span:nth-child(3){
+    width:35px;
+}
+
+.mobile-menu-header{
+    display:none;
+}
+
+/* MOBILE */
+
+@media (max-width: 993px){
+
+    .navbar{
+        height:115px; 
+        justify-content:center;
+        padding:0 25px;
+    }
+
+    .logo img{
+        width:130px;
+    }
+
+    .hamburger{
+        display:flex;
+        position:absolute;
+        left:25px;
+    }
+
+    .nav-links{
+        position:fixed;
+        /* top:159px; */
+        top: 0;
+        left:-100%;
+        width:280px;
+        height:100vh;
+        background:#0f4d86;
+        flex-direction:column;
+        gap:30px;
+        padding-top:40px;
+        padding-left:30px;
+        transition:0.4s;
+    }
+
+
+    .nav-links.active{
+        left:0;
+    }
+
+    .nav-links a{
+        font-size:20px;
+    }
+
+    .mobile-menu-header{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+
+        /* background:white; */
+
+        width:100%;
+
+        padding:15px 20px;
+
+        margin:-40px -30px 20px -30px;
+        /* border: 2px solid red; */
+    }
+
+    .mobile-logo img{
+        width:100px;
+        
+    }
+
+    .close-menu{
+        font-size:28px;
+        font-weight:bold;
+        cursor:pointer;
+        /* color:#1d2b3a; */
+        color: #19e0cb;
+    }
+
+}
+
+/* MOBILE SMALL */
+
+@media (max-width:576px){
+
+    .top-bar{
+        flex-direction:column;
+        height:auto;
+        padding:10px 0;
+        gap:8px;
+    }
+
+    .top-bar a{
+        font-size:15px;
+    }
+
+    .logo img{
+        width:115px;
+    }
+}

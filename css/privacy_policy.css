@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+
+}
+
+.PrivacyCont h1 {
+    color: #0b2b5c;
+    font-size: 49px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.Cont {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f7f9fc;
+}
+
+.Box1,
+.Box2,
+.Box3,
+.Box4,
+.Box5,
+.Box7,
+.Box8,
+.Box9,
+.Box10,
+.Box11,
+.Box12,
+.Box13,
+.Box14,
+.Box15,
+.Box16,
+.Box17 {
+    width: 80%;
+    height: auto;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.Box1,
+.Box2,
+.Box3,
+.Box4,
+.Box5,
+.Box7,
+.Box8,
+.Box9,
+.Box10,
+.Box11,
+.Box12,
+.Box13,
+.Box14,
+.Box15,
+.Box16,
+.Box17 {
+    background-color: #fff;
+}
+
+
+.Box1 h3,
+.Box2 h3,
+.Box3 h3,
+.Box4 h3,
+.Box5 h3,
+.Box7 h3,
+.Box8 h3,
+.Box9 h3,
+.Box10 h3,
+.Box11 h3,
+.Box12 h3,
+.Box13 h3,
+.Box14 h3,
+.Box15 h3,
+.Box16 h3 {
+    color: #0b2b5c;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+
+.Box1 p,
+.Box2 p,
+.Box3 p,
+.Box4 p,
+.Box5 p,
+.Box7 p,
+.Box8 p,
+.Box9 p,
+.Box10 p,
+.Box11 p,
+.Box12 p,
+.Box13 p,
+.Box14 p,
+.Box15 p,
+.Box16 p,
+.Box17 {
+    color: #555;
+    font-size: 17px;
+    line-height: 34px;
+}

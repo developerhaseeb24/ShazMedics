@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+
+}
+
+.PoliciesAndNoticeContainer {
+    /* border: 2px solid yellow; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.PoliciesAndNoticeContainer1 .PoliciesAndNotice1-btn,
+.PoliciesAndNoticeContainer2 .PoliciesAndNotice2-btn,
+.PoliciesAndNoticeContainer3 .PoliciesAndNotice3-btn,
+.PoliciesAndNoticeContainer4 .PoliciesAndNotice4-btn {
+    display: inline-block;
+    background: #f7f9fc;
+    color: #444;
+    padding: 14px 30px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+
+.PoliciesAndNoticeContainer1 .PoliciesAndNotice1-btn:hover,
+.PoliciesAndNoticeContainer2 .PoliciesAndNotice2-btn:hover,
+.PoliciesAndNoticeContainer3 .PoliciesAndNotice3-btn:hover,
+.PoliciesAndNoticeContainer4 .PoliciesAndNotice4-btn:hover {
+    background-color: #15c9b1;
+    color: #fff;
+}
+
+.PolicyContainer {
+    /* border: 2px solid yellowgreen; */
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.PolicyContainer1 h4 {
+    color: #15c9b1;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.PolicyContainer2 h2 {
+    color: #0b2b5c;
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.PolicyContainer3 p {
+    color: #555;
+    line-height: 34px;
+    font-size: 17px;
+}

@@ -1,0 +1,42 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Poppins, sans-serif;
+
+ }
+
+ .AppointmentAndEnquiresContainer {
+     /* border: 2px solid green; */
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     background-color: #fff;
+ }
+
+ .AppEnqCont1 h4 {
+     color: #15c9b1;
+     font-size: 16px;
+     font-weight: 600;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+ }
+
+ .AppEnqCont2 h2 {
+     color: #0b2b5c;
+     font-size: 42px;
+     font-weight: 700;
+     margin-top: 12px;
+     margin-bottom: 10px;
+ }
+
+ .AppEnqCont3 p,
+ .AppEnqCont4 p {
+     color: #555;
+     line-height: 34px;
+     font-size: 17px;
+ }

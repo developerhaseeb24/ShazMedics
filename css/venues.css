@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+
+}
+
+.VS1Cont {
+    width: 100%;
+    padding: 35px 25px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.VSCont1 h3 {
+    margin-bottom: 25px;
+    font-weight: 700;
+    color: #0b2b5c;
+    font-size: 32px;
+}
+
+.VSCont2 p {
+    color: #555;
+    font-size: 17px;
+    line-height: 34px;
+}
+
+
+/* Section 2 code */
+
+.VS2Cont {
+    width: 100%;
+    padding: 35px 25px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+
+.VS2Cont1 h5 {
+    color: #15c9b1;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.VS2Cont2 h2 {
+    color: #0b2b5c;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.VS3Cont3 p {
+    color: #555;
+    font-size: 17px;
+    line-height: 34px;
+}
+
+.VS3Cont3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.VS3Cont31 {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    background-color: #f8f9fa;
+    padding: 30px 30px 30px 30px;
+}
+
+.VS3Cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 25px;
+    background-color: #fff;
+    /* border: 2px solid black; */
+}
+
+.VS3Cont1 h4 {
+    color: #15c9b1;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.VS3Cont2 h2 {
+    color: #0b2b5c;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.VS3Cont3 p,
+.VS3Cont4 p {
+    color: #555;
+    font-size: 17px;
+    line-height: 34px;
+}
+
+.VS3Cont4 {
+    background: #1860ca;
+    color: #fff;
+    padding: 18px 25px;
+    border-radius: 14px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+.FlexCont {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.FlexCont1,
+.FlexCont2,
+.FlexCont3 {
+    background: #f7f9fc;
+    padding: 25px;
+    border-radius: 18px;
+    text-align: center;
+    height: 100%;
+    line-height: 30px;
+    color: #444;
+}
+
+.VS4Cont1 h4 {
+    color: #15c9b1;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.VS4Cont2 h2 {
+    color: #0b2b5c;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.VS4Cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 25px;
+    background-color: #fff;
+    /* border: 2px solid black; */
+}
+
+.flexContainer {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.flexContainer1 h5,
+.flexContainer2 h5 {
+    color: #1860ca;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.flexContainer2 p,
+.flexContainer1 p {
+    margin-bottom: 0;
+    color: #444;
+    font-size: 18px;
+}
+
+.flexContainer1,
+.flexContainer2 {
+    background: #f7f9fc;
+    border-radius: 18px;
+    padding: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+
+.VS5Cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 25px;
+    background-color: #fff;
+}
+
+.VS5Cont3 p {
+    color: #555;
+    font-size: 17px;
+    line-height: 34px;
+}
+
+
+.VS5Cont2 h2 {
+    color: #0b2b5c;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.VS5Cont1 span {
+    color: #15c9b1;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.VenueMasterConatiner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f9fc;
+}
+
+
+.VenueMasterConatiner1,
+.VenueMasterConatiner2,
+.VenueMasterConatiner3,
+.VenueMasterConatiner4,
+.VenueMasterConatiner5,
+.VenueMasterConatiner6 {
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.VS6Cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 25px;
+    background-color: #fff;
+}
+
+
+.VS6Cont1 span {
+    color: #15c9b1;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.VS6Cont2 h2 {
+    color: #0b2b5c;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.VS6Cont3 li{
+    color: #15c9b1;
+    font-size: 15px;
+    line-height: 34px;
+    font-weight: 600;
+}

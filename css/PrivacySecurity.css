@@ -1,0 +1,58 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Poppins, sans-serif;
+        }
+
+        .PScont {
+            /* border: 2px solid black; */
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 30px 30px 30px 30px;
+            background-color: #fff;
+        }
+
+        .Ps1 h4 {
+            color: #15c9b1;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+
+        }
+
+        .Ps2 h2 {
+            color: #0b2b5c;
+            font-size: 42px;
+            font-weight: 700;
+            margin-top: 12px;
+        }
+
+        .Ps3 p,
+        .Ps5 p,
+        .Ps7 p {
+            color: #555;
+            line-height: 34px;
+            font-size: 17px;
+        }
+
+        .Ps4 li,
+        .Ps6 li {
+            padding-left: 38px;
+            margin-bottom: 18px;
+            color: #555;
+            font-size: 17px;
+            line-height: 30px;
+            /* dsad */
+
+        }
+
+        .Ps4,
+        .Ps6 {
+            margin-left: 20px;
+            background-color: #f7f9fc;
+            border-radius: 18px;
+        }
