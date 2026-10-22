@@ -350,3 +350,41 @@
         margin-bottom: 20px;
     }
 }
+
+
+
+@media screen and (max-width: 450px) {
+    .VenueMasterConatiner3 {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .VenueMasterConatiner4 {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .VenueMasterConatiner5 {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .VenueMasterConatiner6 {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
