@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Poppins, sans-serif;
-
+    /* width: 100%;
+    max-width: 100%; */
 }
 
 .VS1Cont {
@@ -313,7 +314,7 @@
 }
 
 /* Media Query Code */
-@media (max-width: 410px) {
+@media screen and (max-width: 410px) {
 
     .VenueMasterConatiner1 {
         padding-left: 15px;
