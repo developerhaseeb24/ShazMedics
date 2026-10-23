@@ -60,6 +60,10 @@
         align-items: center;
         gap: 20px;
     }
+    .HSDiv2 img{
+        width: 200px;
+        height: 200px;
+    }
 }
 
 /* END */
