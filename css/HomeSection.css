@@ -298,4 +298,11 @@
 
 /* END */
 
-
+@media screen and (max-width: 500px) {
+    .Section1Container {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
