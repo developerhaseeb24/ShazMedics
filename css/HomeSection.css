@@ -1,88 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Poppins,sans-serif;
-    
 }
-
-
-/* Home Section 1 CSS */
-.Section1{
-    /* border: 2px solid black; */
+/* Section 1 CSS */
+.HSContainer {
     width: 100%;
-    /* height: 600px; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    padding-top: 20px;
     background-color: #f8f9fa;
 }
 
-.Section1Div{
-    /* margin-top: 10px; */
-    /* border: 2px solid red; */
-    width: 100%;
-    /* height: 600px; */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-}
-
-.S1Box{
-    width: 60%;
-    height: 400px;
-    /* background-color: yellow; */
-}
-.S2Box{
-    width: 30%;
-    
-    height: 400px;
-    overflow: hidden;
-}
-
-.S2Box img{
-    width: 100%;
-    height: 100%;
-}
-
-.S1Box h5{
-    /* color: #15c9b1; */
-    color: #f0a742;
-    font-size: 22px;
-    font-weight: 600;
-    margin-top: 15px;
-}
-
-.S1Box h1{
+.HSDiv1 h1,
+.HSDiv2 h1 {
+    color: #0b2b5c;
     font-size: 49px;
     font-weight: 700;
     line-height: 65px;
-    color: #0b2b5c;
-    margin-top: 55px;
 }
 
-.S1Box p{
-    font-size: 17px;
-    color: #444;
-    line-height: 34px;
+.HSDiv1 h5,
+.HSDiv2 h5 {
+    color: #f0a742;
+    font-size: 22px;
+    font-weight: 600;
     margin-top: 20px;
 }
 
+.HSDiv1 p,
+.HSDiv2 p{
+    font-size: 17px;
+    color: #444;
+    margin-top: 20px;
+}
+
+.HSDiv2 img{
+    width: 400px;
+    height:400px;
+}
+
+.HSDiv1{
+    background-color: #f8f9fa;
+    padding-top: 40px;
+}
+
+
+@media screen and (max-width:800px){
+    .HSContainer{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
 
 /* END */
 
 /* Section 3 CSS */
-.MainDiv{
+.MainDiv {
     width: 100%;
-    /* height: 300px; */
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
 }
 
-.Card1, .Card2{
-    /* border: 2px solid black; */
+.Card1,
+.Card2 {
     width: 30%;
     border-radius: 15px 15px 15px 15px;
     background-color: #fff;
@@ -92,27 +84,27 @@
     padding-bottom: 20px;
 }
 
-.Card1 a{
-    text-decoration: none;
-    color: #15c9b1;
-    margin-left: 10px;    
-}
-
-.Card2 a{
+.Card1 a {
     text-decoration: none;
     color: #15c9b1;
     margin-left: 10px;
-    
 }
 
-.Card1 p{
+.Card2 a {
+    text-decoration: none;
+    color: #15c9b1;
+    margin-left: 10px;
+
+}
+
+.Card1 p {
     color: #666;
     padding-top: 15px;
     margin-left: 10px;
     line-height: 30px;
 }
 
-.Card2 p{
+.Card2 p {
     color: #666;
     padding-top: 15px;
     margin-left: 10px;
@@ -120,44 +112,46 @@
 }
 
 
-.Card1 h2{
+.Card1 h2 {
     color: #0b2b5c;
     padding-top: 15px;
     margin-left: 10px;
 }
 
-.Card2 h2{
+.Card2 h2 {
     color: #0b2b5c;
     padding-top: 15px;
     margin-left: 10px;
 }
 
-.Card1 i{
-    font-size: 50px; 
-    color:#1860ca;
+.Card1 i {
+    font-size: 50px;
+    color: #1860ca;
     /* background-color: #e8fffb; */
     margin-left: 10px;
 }
 
 
-.Card2 i{
-    font-size: 50px; 
-    color:#1860ca;
+.Card2 i {
+    font-size: 50px;
+    color: #1860ca;
     /* background-color: #e8fffb; */
     margin-left: 10px;
 }
 
 
 
-.MainSection{
+.MainSection {
     background-color: #f7f9fc;
     width: 100%;
     height: auto;
     margin-top: 40px;
 }
 
-@media screen and (max-width: 680px){
-    .Card1,.Card2{
+@media screen and (max-width: 680px) {
+
+    .Card1,
+    .Card2 {
         width: 100%;
     }
 }
@@ -193,7 +187,8 @@
     border-radius: 25px;
     /* Animation Property */
     /* transition: transform 0.3s ease; */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    ;
 }
 
 .bx1:hover,
@@ -239,6 +234,7 @@
 }
 
 @media (max-width: 768px) {
+
     .bx1,
     .bx2,
     .bx3 {
@@ -247,6 +243,7 @@
 }
 
 @media (max-width: 500px) {
+
     .bx1,
     .bx2,
     .bx3 {
@@ -255,17 +252,17 @@
 }
 
 /* Home Section 6 CSS */
-.section6Div{
+.section6Div {
     width: 100%;
     /* height: 600px; */
     /* border: 2px solid red; */
     margin-top: 35px;
-    background:linear-gradient(135deg,#1860ca,#15c9b1);
+    background: linear-gradient(135deg, #1860ca, #15c9b1);
     display: flex;
     flex-direction: column;
 }
 
-.Sec6Card1 h1{
+.Sec6Card1 h1 {
     padding-top: 20px;
     color: #fff;
     font-size: 42px;
@@ -273,7 +270,7 @@
     text-align: center;
 }
 
-.Sec6Card2 p{
+.Sec6Card2 p {
     color: #fff;
     font-size: 18px;
     margin-top: 20px;
@@ -281,7 +278,7 @@
 }
 
 
-.Sec6Card3 p{
+.Sec6Card3 p {
     color: #fff;
     font-size: 22px;
     margin-top: 15px;
@@ -289,7 +286,7 @@
     text-align: center;
 }
 
-.Sec6Card4 p{
+.Sec6Card4 p {
     margin-top: 15px;
     color: #fff;
     font-size: 22px;
