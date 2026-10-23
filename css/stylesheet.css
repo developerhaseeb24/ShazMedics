@@ -34,7 +34,8 @@
 .navbar{
     /* height:116px; */
     height: 100px;
-    background:#0f4d86;
+    /* background:#0f4d86; */
+    background-color: #41085e;
     display:flex;
     justify-content:space-between;
     align-items:center;
