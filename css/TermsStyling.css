@@ -108,4 +108,29 @@
     color: #555;
     font-size: 17px;
     line-height: 34px;
+    margin-bottom: 22px;
+}
+
+
+.Box1 i,
+.Box2 i, 
+.Box3 i,
+.Box4 i,
+.Box5 i,
+.Box6 i,
+.Box7 i,
+.Box8 i, 
+.Box9 i,
+.Box10 i,
+.Box11 i,
+.Box12 i,
+.Box13 i, 
+.Box14 i{
+    line-height: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #f0a742;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 25px;
 }
