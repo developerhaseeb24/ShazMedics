@@ -39,7 +39,7 @@
 .PoliciesAndNoticeContainer2 .PoliciesAndNotice2-btn:hover,
 .PoliciesAndNoticeContainer3 .PoliciesAndNotice3-btn:hover,
 .PoliciesAndNoticeContainer4 .PoliciesAndNotice4-btn:hover {
-    background-color: #15c9b1;
+    background-color: #f0a742;
     color: #fff;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .PolicyContainer1 h4 {
-    color: #15c9b1;
+    color: #f0a742;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;

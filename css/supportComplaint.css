@@ -19,7 +19,7 @@
 }
 
 .supportbox1 h4 {
-    color: #15c9b1;
+    color: #f0a742;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
@@ -48,7 +48,7 @@
     font-size: 20px;
     font-weight: 600;
     display: inline-block;
-    color: #15c9b1;
+    color: #f0a742;
 }
 
 .supportbox5 {
@@ -60,7 +60,7 @@
 .supportbox6 p {
     background: #f7f9fc;
     padding: 22px 25px;
-    border-left: 4px solid #15c9b1;
+    border-left: 4px solid #f0a742;
     border-radius: 14px;
     margin-top: 25px;
     color: #444;
