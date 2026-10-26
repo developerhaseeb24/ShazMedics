@@ -232,9 +232,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
-    margin-top: 20px;
-    gap: 30px;
+    gap: 20px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -243,20 +241,43 @@
 .tab2 p,
 .tab3 p,
 .tab4 p {
-    color: #444;
+    /* color: #444;
     font-size: 17px;
     line-height: 30px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); */
+    color: #555;
+    font-size: 17px;
+    line-height: 34px;
+    margin-bottom: 22px;
+}
+
+.tab1 i,
+.tab2 i,
+.tab3 i,
+.tab4 i{
+    line-height: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #f0a742;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 25px;
 }
 
 .tab1,
 .tab2,
 .tab3,
 .tab4 {
+    /* border:  2px solid red; */
     background-color: #fff;
     border-radius: 16px;
+    /* display: flex;
+    flex-direction: column; */
+    padding-top: 17px;
+    padding-left: 17px;
 }
 
+Sect
 /* Tabs CSS Ends  */
 
 /* Paragraph CSS Begins */
@@ -522,7 +543,7 @@
 }
 
 
-.SuperMainCont{
+.SuperMainCont {
     /* border: 2px solid black; */
     width: 100%;
     display: flex;
