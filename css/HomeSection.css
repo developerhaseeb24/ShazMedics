@@ -135,7 +135,8 @@
 
 .Card1 i {
     font-size: 50px;
-    color: #1860ca;
+    /* color: #1860ca; */
+    color : #f0a742;
     /* background-color: #e8fffb; */
     margin-left: 10px;
 }
@@ -143,7 +144,8 @@
 
 .Card2 i {
     font-size: 50px;
-    color: #1860ca;
+    /* color: #1860ca; */
+    color : #f0a742;
     /* background-color: #e8fffb; */
     margin-left: 10px;
 }
